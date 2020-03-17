@@ -9,16 +9,17 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="127dp"
+        android:layout_height="55dp"
+        android:onClick="sendMessage"
         android:text="@string/button_send"
-        tools:layout_editor_absoluteX="247dp"
-        tools:layout_editor_absoluteY="19dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/editText"
+        tools:layout_editor_absoluteX="247dp" />
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="213dp"
+        android:layout_height="45dp"
         android:ems="10"
         android:hint="@string/edit_message"
         android:inputType="textPersonName"
